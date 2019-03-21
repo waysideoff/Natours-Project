@@ -1,3 +1,12 @@
+@mixin clearfix {
+	&::after {
+		content: "";
+		display: table;
+		clear: both;
+
+	}
+}
+
 @keyframes moveInLeft {
 	0% {
 		opacity: 0;
